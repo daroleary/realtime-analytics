@@ -1,0 +1,26 @@
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem;
+  padding-right: 1rem;
+  border-right: 1px solid #fff;
+}
+
+.nav-link:last-child {
+  border-right: none;
+}
+
+.nav-link:not(:last-child)::after {
+  content: "";
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: #fff;
+  vertical-align: middle;
+}

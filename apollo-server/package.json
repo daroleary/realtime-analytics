@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@apollo/client": "^3.7.3",
+    "@apollo/server": "^4.3.0",
+    "graphql": "^16.6.0",
+    "graphql-subscriptions": "^2.0.0",
+    "mongoose": "^6.11.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "prettier": "^2.8.8"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node --presets=@babel/preset-env -- src/index.js",
+    "format": "prettier --write \"src/**/*.{js,jsx}\""
+  },
+  "type": "module"
+}

@@ -1,0 +1,26 @@
+.analytics-section {
+    margin: 1rem;
+  }
+  
+  .analytics-section h2 {
+    margin-top: 0;
+  }
+  
+  .analytics-section .analytics-item {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    max-width: 300px;
+  }
+  
+  .analytics-section .analytics-item:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  
+  .analytics-section .analytics-item:not(:last-child)::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #ccc;
+    margin-top: 1rem;
+  }
